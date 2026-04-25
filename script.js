@@ -3,6 +3,7 @@ const translations = {
     nav_about: "ABOUT",
     nav_skills: "SKILLS",
     nav_projects: "PROJECTS",
+    nav_homelab: "SYSTEM CASES",
     nav_experience: "EXPERIENCE",
     nav_contact: "CONTACT",
     hero_tagline: "LINUX/SYSTEM ADMINISTRATION · AUTOMATION · WEB TOOLS · TROUBLESHOOTING",
@@ -10,6 +11,8 @@ const translations = {
     hero_title: "JUNIOR LINUX/SYSTEM ADMINISTRATOR & AUTOMATION-FOCUSED IT SPECIALIST",
     hero_description:
       "I work with Linux, servers, Docker, GitHub, scripting and web technologies. I build practical tools, automate routine tasks, configure systems, troubleshoot hardware/software issues, and deploy web projects.",
+    hero_resume_download: "DOWNLOAD RESUME",
+    hero_resume_open: "OPEN RESUME.MD",
     hero_photo_caption: "YOUR PHOTO",
     about_label: "ABOUT",
     about_title: "PRACTICAL SYSTEM THINKING",
@@ -32,6 +35,8 @@ const translations = {
     skills_sec_b: "Network testing, basic pentesting, privacy-oriented app design, encryption utilities.",
     projects_label: "PROJECTS",
     projects_title: "SELECTED WORK",
+    homelab_label: "SYSTEM / HOMELAB CASES",
+    homelab_title: "INFRASTRUCTURE & VIRTUALIZATION CASES",
     p1_h: "Android GPS Application",
     p1_b:
       "Role: Feature developer. Implemented marked feature set for GPS data acquisition, coordinate display, customization, location save/share/export, SOS mode and privacy behavior.",
@@ -70,6 +75,7 @@ const translations = {
     nav_about: "ОБО МНЕ",
     nav_skills: "НАВЫКИ",
     nav_projects: "ПРОЕКТЫ",
+    nav_homelab: "СИСТЕМНЫЕ КЕЙСЫ",
     nav_experience: "ОПЫТ",
     nav_contact: "КОНТАКТЫ",
     hero_tagline: "LINUX/SYSTEM ADMINISTRATION · AUTOMATION · WEB TOOLS · TROUBLESHOOTING",
@@ -77,6 +83,8 @@ const translations = {
     hero_title: "JUNIOR LINUX/SYSTEM ADMINISTRATOR И IT-СПЕЦИАЛИСТ С ФОКУСОМ НА АВТОМАТИЗАЦИЮ",
     hero_description:
       "Работаю с Linux, серверами, Docker, GitHub, скриптами и веб-технологиями. Настраиваю системы, автоматизирую рутинные задачи, решаю проблемы с ПК и серверами, разворачиваю сайты и делаю практичные pet-проекты.",
+    hero_resume_download: "СКАЧАТЬ РЕЗЮМЕ",
+    hero_resume_open: "ОТКРЫТЬ RESUME.MD",
     hero_photo_caption: "ТВОЕ ФОТО",
     about_label: "ОБО МНЕ",
     about_title: "ПРАКТИЧЕСКОЕ СИСТЕМНОЕ МЫШЛЕНИЕ",
@@ -99,6 +107,8 @@ const translations = {
     skills_sec_b: "Network testing, basic pentesting, privacy-oriented app design, encryption utilities.",
     projects_label: "ПРОЕКТЫ",
     projects_title: "ИЗБРАННЫЕ РАБОТЫ",
+    homelab_label: "SYSTEM / HOMELAB КЕЙСЫ",
+    homelab_title: "ИНФРАСТРУКТУРНЫЕ И ВИРТУАЛИЗАЦИОННЫЕ КЕЙСЫ",
     p1_h: "Android GPS Application",
     p1_b:
       "Роль: Feature developer. Реализован отмеченный набор функций: получение GPS-данных, показ координат, кастомизация, сохранение/шаринг/экспорт, SOS-режим и privacy-поведение.",

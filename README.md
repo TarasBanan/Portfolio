@@ -1,37 +1,44 @@
-# Portfolio Landing + Resume
+# Vovchenko Artem — Portfolio Landing
 
-Bilingual (EN/RU) GitHub-hostable landing page and resume focused on:
+Personal bilingual (EN/RU) portfolio focused on:
 - Junior Linux/System Administration
-- Automation and scripting
-- Self-hosting/server setup
-- IT troubleshooting
-- Web tooling
+- Automation & scripting
+- System troubleshooting
+- Web tooling and practical delivery
 
-## Files
-- `index.html` — main landing page
-- `styles.css` — Bugatti-inspired monochrome design system adaptation from `DESIGN.md`
-- `script.js` — EN/RU language switcher content
-- `RESUME.md` — text resume (EN + RU)
+## Live Preview
+Portfolio preview: **https://<your-username>.github.io/<repo-name>/**
 
-## Local preview
-Open `index.html` directly in browser, or run:
+## Professional Focus
+- Linux/Windows system setup and troubleshooting
+- Server operations: SSH, Docker, VPN/DNS, self-hosting
+- Automation with Python/Bash and CLI workflows
+- Frontend/web tooling for practical internal and public-facing tools
 
-```bash
-python3 -m http.server 8000
-```
+## Portfolio Structure
+- **Hero** — positioning, short summary, contact links, resume actions
+- **About** — system-thinking profile and approach
+- **Skills** — grouped technical competency areas
+- **Projects** — application/dev projects with tech badges
+- **System / Homelab Cases** — infra, virtualization and server cases
+- **Experience** — freelance/informal IT support highlights
+- **Education & Certificates**
+- **Contact**
 
-Then visit `http://localhost:8000`.
+## Selected Project Groups
+### Projects
+- Android GPS Application
+- News Parsing & Auto-publishing Website
+- CLI Encryption Utility
 
-## GitHub hosting
-Use GitHub Pages:
-1. Push repository to GitHub.
-2. In **Settings → Pages**, choose `Deploy from a branch`.
-3. Select `main` (or your branch) and folder `/ (root)`.
-4. Save and wait for deployment URL.
+### System / Homelab Cases
+- Linux Workstation Setup
+- Looking Glass VM Setup
+- Personal Server & Home Network Setup
 
-## Customize before publishing
-- Replace placeholder contacts in `index.html` and `RESUME.md`.
-- Replace `assets/profile-placeholder.svg` with your real photo (recommended path: `assets/profile.jpg`).
-- Add real GitHub repository links for projects.
-- Add screenshots for Android app and system case studies.
-- Optionally attach `RESUME.md` export as PDF.
+## Resume
+- Open: `RESUME.md`
+- Download button is available directly in the hero section of the site.
+
+## Tech Stack
+`HTML` · `CSS` · `JavaScript` · `i18n (EN/RU)` · `GitHub Pages`

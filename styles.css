@@ -160,7 +160,7 @@ h3 {
 
 .hero-photo {
   z-index: 1;
-  margin: -8px 56px 0 auto;
+  margin: 18px 56px 0 auto;
   flex: 0 0 min(35vw, 420px);
 }
 
@@ -223,6 +223,24 @@ h3 {
 .skills-grid article {
   border-top: 1px solid var(--muted);
   padding-top: 12px;
+}
+
+.tech-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.badge {
+  border: 1px solid var(--muted);
+  border-radius: 9999px;
+  padding: 4px 10px;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.8px;
+  color: var(--text);
+  text-transform: uppercase;
 }
 
 ul {
