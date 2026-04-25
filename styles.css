@@ -83,16 +83,29 @@ body {
 }
 
 .hero-content {
-  max-width: 900px;
+  max-width: 1160px;
   position: relative;
   z-index: 1;
 }
 
-.hero-heading-row {
+.hero-main-row {
   display: flex;
-  gap: 24px;
-  align-items: flex-start;
+  gap: 36px;
+  align-items: flex-end;
   justify-content: space-between;
+}
+
+.hero-copy {
+  min-width: 0;
+}
+
+.hero-name {
+  margin: 0 0 10px;
+  font-family: var(--mono);
+  font-size: clamp(0.95rem, 1.5vw, 1.2rem);
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+  color: var(--text);
 }
 
 h1,
@@ -104,9 +117,9 @@ h3 {
 }
 
 h1 {
-  font-size: clamp(2.2rem, 7vw, 5.5rem);
+  font-size: clamp(2rem, 5.5vw, 4.4rem);
   text-transform: uppercase;
-  max-width: 11ch;
+  max-width: 12ch;
   margin-bottom: 24px;
 }
 
@@ -144,8 +157,8 @@ h3 {
 
 .hero-photo {
   z-index: 1;
-  margin: 8px 0 0;
-  flex: 0 0 min(28vw, 300px);
+  margin: 0;
+  flex: 0 0 min(35vw, 420px);
 }
 
 .hero-photo img {
@@ -242,13 +255,13 @@ li {
     min-height: 78vh;
   }
 
-  .hero-heading-row {
+  .hero-main-row {
     flex-direction: column;
+    align-items: flex-start;
   }
 
   .hero-photo {
-    margin: 0;
-    width: min(58vw, 220px);
+    width: min(75vw, 300px);
   }
 
   .hero-photo img {
