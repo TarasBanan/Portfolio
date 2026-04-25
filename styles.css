@@ -93,7 +93,7 @@ body {
   display: flex;
   width: 100%;
   gap: 36px;
-  align-items: flex-end;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
@@ -160,7 +160,7 @@ h3 {
 
 .hero-photo {
   z-index: 1;
-  margin: 0 0 0 auto;
+  margin: -8px 56px 0 auto;
   flex: 0 0 min(35vw, 420px);
 }
 
