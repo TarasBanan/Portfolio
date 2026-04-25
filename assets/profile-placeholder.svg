@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="400" viewBox="0 0 320 400" fill="none">
+  <rect width="320" height="400" fill="#000000"/>
+  <rect x="10" y="10" width="300" height="380" stroke="#999999" stroke-width="2"/>
+  <circle cx="160" cy="150" r="60" stroke="#ffffff" stroke-width="4"/>
+  <path d="M70 320C82 262 120 230 160 230C200 230 238 262 250 320" stroke="#ffffff" stroke-width="4"/>
+  <text x="160" y="360" fill="#999999" font-size="14" text-anchor="middle" font-family="monospace" letter-spacing="1">PROFILE PHOTO</text>
+</svg>
