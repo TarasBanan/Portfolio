@@ -32,7 +32,7 @@ Portfolio preview: **https://<your-username>.github.io/<repo-name>/**
 - CLI Encryption Utility
 
 ### System / Homelab Cases
-- Linux Workstation Setup (Acer Nitro 5)
+- Linux Workstation Setup
 - Looking Glass VM Setup
 - Personal Server & Home Network Setup
 
