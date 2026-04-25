@@ -1,9 +1,9 @@
 # Vovchenko Artem / Вовченко Артём
 **Junior Linux/System Administrator · Automation & Web Tools Developer**
 
-- GitHub: https://github.com/your-username
-- Telegram: https://t.me/your-username
-- Email: you@example.com
+- GitHub: https://github.com/TarasBanan
+- Telegram: https://t.me/taras_banan
+- Email: vovchenkoaadonstu@gmail.com
 
 ---
 
