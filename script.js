@@ -9,7 +9,6 @@ const translations = {
     hero_title: "JUNIOR LINUX/SYSTEM ADMINISTRATOR & AUTOMATION-FOCUSED IT SPECIALIST",
     hero_description:
       "I work with Linux, servers, Docker, GitHub, scripting and web technologies. I build practical tools, automate routine tasks, configure systems, troubleshoot hardware/software issues, and deploy web projects.",
-    hero_photo_caption: "ADD YOUR REAL PHOTO HERE (assets/profile.jpg)",
     about_label: "ABOUT",
     about_title: "PRACTICAL SYSTEM THINKING",
     about_p1:
@@ -75,7 +74,6 @@ const translations = {
     hero_title: "JUNIOR LINUX/SYSTEM ADMINISTRATOR И IT-СПЕЦИАЛИСТ С ФОКУСОМ НА АВТОМАТИЗАЦИЮ",
     hero_description:
       "Работаю с Linux, серверами, Docker, GitHub, скриптами и веб-технологиями. Настраиваю системы, автоматизирую рутинные задачи, решаю проблемы с ПК и серверами, разворачиваю сайты и делаю практичные pet-проекты.",
-    hero_photo_caption: "ДОБАВЬ СВОЕ ФОТО СЮДА (assets/profile.jpg)",
     about_label: "ОБО МНЕ",
     about_title: "ПРАКТИЧЕСКОЕ СИСТЕМНОЕ МЫШЛЕНИЕ",
     about_p1:

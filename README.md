@@ -31,7 +31,6 @@ Use GitHub Pages:
 
 ## Customize before publishing
 - Replace placeholder contacts in `index.html` and `RESUME.md`.
-- Replace `assets/profile-placeholder.svg` with your real photo (recommended path: `assets/profile.jpg`).
 - Add real GitHub repository links for projects.
 - Add screenshots for Android app and system case studies.
 - Optionally attach `RESUME.md` export as PDF.
