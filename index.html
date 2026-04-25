@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Junior Linux/System Administrator</title>
+    <meta
+      name="description"
+      content="Portfolio and resume of a junior Linux/System Administrator focused on automation, servers, troubleshooting and web tooling."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&family=JetBrains+Mono:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="logo" href="#hero">PORTFOLIO</a>
+      <nav class="top-nav">
+        <a href="#about" data-i18n="nav_about">ABOUT</a>
+        <a href="#skills" data-i18n="nav_skills">SKILLS</a>
+        <a href="#projects" data-i18n="nav_projects">PROJECTS</a>
+        <a href="#experience" data-i18n="nav_experience">EXPERIENCE</a>
+        <a href="#contact" data-i18n="nav_contact">CONTACT</a>
+      </nav>
+      <button id="lang-toggle" class="btn-secondary" type="button" aria-label="Switch language">
+        EN / RU
+      </button>
+    </header>
+
+    <main>
+      <section id="hero" class="hero section-full">
+        <div class="vignette"></div>
+        <div class="hero-content">
+          <p class="eyebrow" data-i18n="hero_tagline">LINUX/SYSTEM ADMINISTRATION · AUTOMATION · WEB TOOLS · TROUBLESHOOTING</p>
+          <div class="hero-heading-row">
+            <h1 data-i18n="hero_title">JUNIOR LINUX/SYSTEM ADMINISTRATOR &amp; AUTOMATION-FOCUSED IT SPECIALIST</h1>
+            <figure class="hero-photo">
+              <img
+                src="assets/profile.jpg"
+                data-fallback-src="assets/profile-placeholder.svg"
+                alt="Profile photo"
+              />
+              <figcaption data-i18n="hero_photo_caption">YOUR PHOTO</figcaption>
+            </figure>
+          </div>
+          <p class="hero-text" data-i18n="hero_description">
+            I work with Linux, servers, Docker, GitHub, scripting and web technologies. I build practical tools,
+            automate routine tasks, configure systems, troubleshoot hardware/software issues, and deploy web projects.
+          </p>
+          <div class="actions">
+            <a class="btn-primary" href="https://github.com" target="_blank" rel="noreferrer">GITHUB</a>
+            <a class="btn-primary" href="mailto:you@example.com">EMAIL</a>
+            <a class="btn-primary" href="https://t.me/username" target="_blank" rel="noreferrer">TELEGRAM</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <p class="eyebrow" data-i18n="about_label">ABOUT</p>
+        <h2 data-i18n="about_title">PRACTICAL SYSTEM THINKING</h2>
+        <p data-i18n="about_p1">
+          I am an IT specialist focused on Linux systems, automation, servers and practical troubleshooting. I have
+          hands-on experience with Linux installation and configuration, dual boot setups, SSH, Docker, VPN/DNS
+          configuration, web hosting, GitHub workflows and hardware/software diagnostics.
+        </p>
+        <p data-i18n="about_p2">
+          I also build web projects and CLI tools using Python, JavaScript, TypeScript, React/Vue and modern frontend
+          tooling. My main strength is combining system-level thinking with practical problem solving: I can configure,
+          debug, automate and document technical solutions.
+        </p>
+      </section>
+
+      <section id="skills" class="section">
+        <p class="eyebrow" data-i18n="skills_label">SKILLS</p>
+        <h2 data-i18n="skills_title">CORE COMPETENCIES</h2>
+        <div class="skills-grid">
+          <article>
+            <h3 data-i18n="skills_systems_h">SYSTEM ADMINISTRATION</h3>
+            <p data-i18n="skills_systems_b">Linux, Windows, systemd, SSH, dual boot, drivers, networking, VPN, DNS, troubleshooting, hardware setup.</p>
+          </article>
+          <article>
+            <h3 data-i18n="skills_auto_h">AUTOMATION &amp; SCRIPTING</h3>
+            <p data-i18n="skills_auto_b">Python, Bash/Fish scripting, CLI tools, system automation, GitHub workflows.</p>
+          </article>
+          <article>
+            <h3 data-i18n="skills_server_h">SERVER &amp; DEPLOYMENT</h3>
+            <p data-i18n="skills_server_b">Docker, web hosting, self-hosted server, PostgreSQL, MongoDB, Redis, virtual machines.</p>
+          </article>
+          <article>
+            <h3 data-i18n="skills_web_h">WEB DEVELOPMENT</h3>
+            <p data-i18n="skills_web_b">JavaScript, TypeScript, React, Vue, Vite, CSS, UI/UX basics, landing pages, web apps.</p>
+          </article>
+          <article>
+            <h3 data-i18n="skills_sec_h">SECURITY BASICS</h3>
+            <p data-i18n="skills_sec_b">Network testing, basic pentesting, privacy-oriented app design, encryption utilities.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <p class="eyebrow" data-i18n="projects_label">PROJECTS</p>
+        <h2 data-i18n="projects_title">SELECTED WORK</h2>
+        <div class="projects-list">
+          <article>
+            <h3 data-i18n="p1_h">Android GPS Application</h3>
+            <p data-i18n="p1_b">Role: Feature developer. Implemented marked feature set for GPS data acquisition, coordinate display, customization, location save/share/export, SOS mode and privacy behavior.</p>
+          </article>
+          <article>
+            <h3 data-i18n="p2_h">News Parsing &amp; Auto-publishing Website</h3>
+            <p data-i18n="p2_b">Role: Full-stack / automation developer. Built a website that parses news and automatically publishes content with a functional web interface.</p>
+          </article>
+          <article>
+            <h3 data-i18n="p3_h">CLI Encryption Utility</h3>
+            <p data-i18n="p3_b">Role: Developer. Created a terminal utility to encrypt/decrypt text and files with practical usage examples.</p>
+          </article>
+          <article>
+            <h3 data-i18n="p4_h">Linux Workstation Setup on Acer Nitro 5</h3>
+            <p data-i18n="p4_b">Role: System administrator / power user. Built a stable Linux daily-driver on hybrid Intel/NVIDIA hardware for development and experiments.</p>
+          </article>
+          <article>
+            <h3 data-i18n="p5_h">Looking Glass VM Setup</h3>
+            <p data-i18n="p5_b">Role: Virtualization / system configuration. Configured KVM/QEMU based environment with high-performance virtualization principles.</p>
+          </article>
+          <article>
+            <h3 data-i18n="p6_h">Personal Server &amp; Home Network Setup</h3>
+            <p data-i18n="p6_b">Role: System/network administrator. Configured personal server services with VPN, DNS, SSH access, Docker workloads and firewall basics.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <p class="eyebrow" data-i18n="exp_label">EXPERIENCE</p>
+        <h2 data-i18n="exp_title">FREELANCE / INFORMAL IT SUPPORT</h2>
+        <ul>
+          <li data-i18n="exp_1">Installed and configured Linux and Windows systems.</li>
+          <li data-i18n="exp_2">Troubleshot Wi-Fi, drivers, boot, software and hardware issues.</li>
+          <li data-i18n="exp_3">Configured VPN, DNS and home network setups.</li>
+          <li data-i18n="exp_4">Helped users with PC maintenance, system recovery and software setup.</li>
+          <li data-i18n="exp_5">Built/upgraded PCs and maintained a personal self-hosted server.</li>
+        </ul>
+      </section>
+
+      <section id="education" class="section">
+        <p class="eyebrow" data-i18n="edu_label">EDUCATION &amp; CERTIFICATES</p>
+        <h2 data-i18n="edu_title">CONTINUOUS LEARNING</h2>
+        <ul>
+          <li data-i18n="edu_1">Hackathon participation certificate.</li>
+          <li data-i18n="edu_2">Self-education in Linux, automation, networking and web deployment.</li>
+          <li data-i18n="edu_3">MATLAB/Simulink educational project experience.</li>
+        </ul>
+      </section>
+
+      <section id="contact" class="section">
+        <p class="eyebrow" data-i18n="contact_label">CONTACT</p>
+        <h2 data-i18n="contact_title">LET'S BUILD SOMETHING PRACTICAL</h2>
+        <p data-i18n="contact_text">Open to junior Linux/system administration, automation, support and web tooling opportunities.</p>
+        <div class="actions">
+          <a class="btn-primary" href="mailto:you@example.com">EMAIL</a>
+          <a class="btn-primary" href="https://github.com" target="_blank" rel="noreferrer">GITHUB</a>
+          <a class="btn-primary" href="https://t.me/username" target="_blank" rel="noreferrer">TELEGRAM</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="section footer">
+      <p>© <span id="year"></span> Portfolio</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
